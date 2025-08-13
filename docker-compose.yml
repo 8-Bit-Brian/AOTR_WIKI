@@ -1,0 +1,36 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: unitsdb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: userpass
+    volumes:
+      - db-data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+  backend:
+    build: ./backend
+    container_name: express-api
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: mysql
+      DB_USER: user
+      DB_PASSWORD: userpass
+      DB_NAME: unitsdb
+    depends_on:
+      - mysql
+  frontend:
+    build: ./frontend
+    container_name: react-app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  db-data:
+
