@@ -1,16 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import Unitcard from './components/Unitcard';
+import './assets/fonts/fonts.css';
+import './App.css';
 
-function Unitcard({NAME,COST}) {
-  return(
-    <div className="card">
-      <img src="troop.png" alt="Avatar" style={{width:"100%"}} />
-      <div className="container">
-        <h4><b>{NAME}</b></h4>
-        <p>Cost: {COST}</p>
-      </div>
-    </div> 
-  );
-};
+
 
 function App() {
   const [query, setQuery] = useState("");
@@ -18,15 +11,13 @@ function App() {
 
   // Call backend when component loads
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/allunits")
-      .then(data => data.json())
-      .then(stats => {
-        console.log(stats);
-        stats.map(unit => {
-          console.log(unit.NAME);
-        })
-      })
-      .catch(err => console.error("Fetch error:", err));
+    const fetch_all_units = async () => {
+      const data = await fetch("http://127.0.0.1:5000/allunits");
+      const stats = await data.json();
+      console.log(stats);
+      setResult(stats);
+    };
+    fetch_all_units();
   }, []);
 
   async function SearchForUnit(event) {
@@ -35,28 +26,22 @@ function App() {
     const data = await fetch(`http://127.0.0.1:5000/unit-search?unit_name=${event.target.value}`);
     const stats = await data.json();
     console.log(stats);
-
     setResult(stats);
   };
 
   return (
     <div>
       <div>
-        <input type="text" id="uname" name="unit-name" value={query} onChange={SearchForUnit}/><br />
+        <h1 class="title" >Welcome to the Age of the Ring Unit Wiki</h1>
       </div>
       <div>
-        <h1>Welcome to the AOTR Unit Wiki!</h1>
-        <p>The text box searches for a unit!</p>
+        <input type="text" id="uname" name="unit-name" value={query} onChange={SearchForUnit}/><br />
       </div>
 
     
-      <ul>
-        {result.map(unit => (
-          <Unitcard 
-            key={unit.UNIT_ID} 
-            NAME={unit.NAME} 
-            COST={unit.COST} 
-          />
+      <ul className="card-container">
+        {result.map(troop => (
+          <Unitcard key={troop.UNIT_ID} unit={troop} />
         ))}
       </ul>
     </div>

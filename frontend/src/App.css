@@ -1,0 +1,21 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  gap: 25px;
+}
+
+html {
+  min-height:100%;
+  background:linear-gradient(0deg, rgb(10, 0, 56), rgba(10, 0, 56, 0.8)), url("../public/map.jpg");
+  background-attachment: "fixed";
+  background-size:cover;
+}
+
+.title {
+    font-family:"RingMed"; 
+    font-size: "4em";
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
