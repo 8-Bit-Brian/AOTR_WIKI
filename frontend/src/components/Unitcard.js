@@ -1,14 +1,12 @@
 import './Unitcard.css'
 import Armortooltip from './Armortooltip';
-import { useState } from 'react';
 
-function Unitcard({unit, armorSetInfo}) {
-  const [hover, setHover] = useState(false);
-  console.log(armorSetInfo);
+
+function Unitcard({unit}) {
+  
   const {NAME, COST, COMMAND_POINTS, BOUNTY_VAL, BUILD_TIME, HP, ARMORSET, WEAPONSET, HORDESPEED, SPECIAL, EXPERIENCE, VISION_RANGE, SHROUDCLEAR_RANGE} = unit;
   return(
     <div className="card">
-      <img src="troop.png" alt="Avatar" />
       <div className="container">
         <h3><b>{NAME}</b></h3>
         <p><b>Cost:</b> {COST}</p>
@@ -16,7 +14,7 @@ function Unitcard({unit, armorSetInfo}) {
         <p><b>Bounty Value:</b> {BOUNTY_VAL}</p>
         <p><b>Build Time:</b> {BUILD_TIME}</p>
         <p><b>Hit Points:</b> {HP}</p>
-        <Armortooltip>armor = {ARMORSET}</Armortooltip>
+        <Armortooltip armor = {ARMORSET} />
         <p><b>Weapon Set:</b> {WEAPONSET}</p>
         <p><b>Horde Speed:</b> {HORDESPEED}</p>
         <p><b>Special:</b> {SPECIAL}</p>

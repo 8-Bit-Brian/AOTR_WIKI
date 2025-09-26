@@ -13,7 +13,6 @@ export const ArmorContext = createContext();
 function App() {
   const [query, setQuery] = useState("");
   const [result, setResult] = useState([]);
-  const [armorToolTipHover, setHover] = useState(false);
 
   // Create a dictionary that's memoized for all the armors in the game
   const armorDict = useMemo(() => {
@@ -57,7 +56,7 @@ function App() {
       <ArmorContext.Provider value={armorDict}>
         <ul className="card-container">
           {result.map(troop => (
-            <Unitcard key={troop.UNIT_ID} unit={troop} armorSetInfo={troop.ARMORSET} />
+            <Unitcard key={troop.UNIT_ID} unit={troop} />
             ))}
         </ul>
       </ArmorContext.Provider>
