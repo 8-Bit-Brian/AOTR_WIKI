@@ -1,0 +1,1 @@
+#define ARMORFILE "/mnt/c/AgeOfTheRing/aotr/data/ini/armor.ini"
