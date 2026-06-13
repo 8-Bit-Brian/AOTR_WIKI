@@ -18,9 +18,9 @@ services:
       - "5000:5000"
     environment:
       DB_HOST: mysql
-      DB_USER: user
-      DB_PASSWORD: userpass
-      DB_NAME: unitsdb
+      DB_USER: ${MYSQL_USER}
+      DB_PASSWORD: ${MYSQL_PASSWORD}
+      DB_NAME: ${MYSQL_DATABASE}
     depends_on:
       - mysql
   frontend:
