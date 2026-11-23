@@ -19,7 +19,7 @@ typedef struct {
 } Entry;
 
 typedef struct {
-    char name[MAX_NAME];
+    char name[MAX_NAME]; 
     Entry entries[MAX_ENTRIES];
     int count;
 } ArmorBlock;
@@ -181,9 +181,6 @@ int updateArmor(const char* inputPath, const char* outputPath) {
     return blocksWritten;
 }
 
-int updateArmorDatabase() {
-    return 0;
-}
 
 /*
     * Adds a key/value pair to a block. If the key already exists (case-insensitive) the later value replaces
@@ -356,6 +353,5 @@ int main(int argc, char** argv) {
     printf("[INFO] Starting armor data update from %s\n", inputPath);
     updateArmor(inputPath, outputPath);
     printf("[INFO] Updating armor database\n");
-    updateArmorDatabase();
     return 0;
 }

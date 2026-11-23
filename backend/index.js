@@ -37,7 +37,7 @@ function connectWithRetry(retries = 10) {
 
       app.get('/allunits', (req, res) => {
         const query = `select * from units;`;
-        connection.query(query,(result,error) => {
+        connection.query(query,(error, result) => {
           if(error){
             res.send(error);
           }
@@ -49,7 +49,7 @@ function connectWithRetry(retries = 10) {
       
       app.get('/unit-search',(req,res) =>{
         const query = `select * from units where name like '%${req.query.unit_name}%';`;
-        connection.query(query,(result,error) => {
+        connection.query(query,(error, result) => {
           if(error){
             res.send(error);
           }

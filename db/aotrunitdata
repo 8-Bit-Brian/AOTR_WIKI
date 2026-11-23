@@ -1,0 +1,2247 @@
+Gondor
+
+Lamedon Clansmen
+Cost = 250, 60 CP (bounty value = 5)
+Buildtime = 25
+HP = 190
+Armorset = SoldierArmor
+Weaponset = LamedonSword/GondorSwordUpgraded: 50/100 slash 
+HordeSpeed = 50
+Special = permanently gain +20% armor at lvl 4
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+
+Linhir Spearmen
+Cost = 300, 60 CP (bounty value = 4)
+Buildtime = 20
+HP = 215
+Armorset = PikemenArmor
+Weaponset = LowEndPike: 40/80 specialist; revenge damage = 300 specialist
+Hordespeed = 50
+Special = Permanently gain +20% armor at lvl 4
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Lossarnach Axemen
+Cost = 450, 60 CP (bounty value = 8)
+Buildtime = 25
+HP = 200
+Armorset = SoldierArmor
+Weaponset = GondorAxe: 65 slash in a radius of 8/120 slash in a radius of 7(?)
+Hordespeed = 50
+Special = permanently gain +20% armor at lvl 4
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Blackroot Vale Archers
+Cost = 250, 60 CP (bounty value = 4)
+Buildtime = 25
+HP = 200
+Armorset = ArcherArmor
+Weaponset = 40 pierce/45 pierce + 20 flame 
+Hordespeed = 50
+Special = permanently gain +20% armor at lvl 4
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Riders of Pinnath Gelin
+Cost = 450/400, 70 CP (bounty value = 13)
+Buildtime = 30
+HP = 300
+Armorset = PKnightArmor
+Weaponset = GondorPinGelSpear: 65/130 cavalry;Pinnathgelincrush: 90 crush
+Hordespeed = 100
+Special = permanently gain +20% armor at lvl 4
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Soldiers of Minas Tirith
+Cost = 500, 75 CP (bounty value = 8)
+Buildtime = 25
+HP = 350
+Armorset = SoldierEliteArmor/SoldierEliteHeavyArmor
+Weaponset = AnorienSword: 80/160 slash 
+Hordespeed = 50
+Special = lvl 2 charge attack, deals (meta impact) damage and +50% damage&armor
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Spearmen of Minas Tirith
+Cost = 500, 75 CP (bounty value = 8)
+Buildtime = 20
+HP = 315
+Armorset = TowerGuardArmor/TowerGuardHeavyArmor
+Weaponset = MidEndPike: 60/120 specialist; Revenge damage = 450 specialist
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Knights of Minas Tirith
+Cost = 650/520, 80 CP (bounty value = 16)
+Buildtime = 25
+HP = 400
+Armorset = AnorienKnightArmor/AnorienKnightHeavyArmor
+Weaponset = GondorKnightSword: 70/140 cavalry; Crush damage = 140
+Hordespeed = 100
+Special = Wedge Formation, -25% Armor, and -50 Crush Deceleration
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Archers of Minas Tirith
+Cost = 500, 75 CP (bounty value = 8)
+Buildtime = 25
+HP = 255
+Armorset = ArcherEliteArmor/ArcherEliteHeavyArmor
+Weaponset = 70 pierce/75 pierce + 20 flame
+Hordespeed = 50
+Special = Skirmish Formation: +25% damage, +15% speed, -50% armor.
+Experience Level = GOOD_ELITE 
+Visionrange = 
+ShroudClearingRange = 
+
+Ithilien Rangers
+Cost = 625, 72 CP (bounty value = 13)
+Buildtime = 35
+HP = 250
+Armorset = IthilienRangerArmor
+Weaponset = 85 pierce/85 pierce; 85 slash
+Hordespeed = 55
+Special = Bodkin Arrows reduce enemy pierce armor by 25%
+Experience Level = GOOD_ELITE 
+Visionrange = 480
+ShroudClearingRange = 
+
+Dol Amroth Men at Arms
+Cost = 700, 80 CP (bounty value = 18)
+Buildtime = 30 
+HP = 525
+Armorset = BlackNumenoreanArmor
+Weaponset = GondorMAASword: 90/180 slash
+Hordespeed = 50
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Knights of Dol Amroth/Swan Knights
+Cost = 1300, 100 CP (bounty value = 32)
+Buildtime = 45
+HP = 800
+Armorset = DolAmrothKnightArmor
+Weaponset = DolAmrothLancerLance: 115 cavalry;Dolamrothlancercrush: 180 crush
+Hordespeed = 100
+Special = unit can level to 10; lvl 5 ability.
+Experience Level = MINI_HORDE
+Visionrange = 175
+ShroudClearingRange = 
+
+Fountain Guards
+Cost = 1500, 120 CP (bounty value = 30)
+Buildtime = 40
+HP = 750
+Armorset = FountainGuardArmor
+Weaponset = GondorFountainGuardSword: 70 hero (its called sword but it lines up)
+Hordespeed = 50
+Special = GondorFountainGuardSwordSlayer: 93 hero
+Experience Level = MINI_HORDE
+Visionrange = 
+ShroudClearingRange = 
+
+Gondor Trebuchet
+Cost = 600 (bounty value = 150)
+Buildtime = 30
+HP = 2000
+Armorset = TrebuchetArmor
+Weaponset = GondorTrebuchetRock: 600 siege in 50 radius/900+500 flame
+Hordespeed = 40
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+
+Rohan
+
+Peasants
+Cost = 150, 45 CP (bounty value = 3)
+Buildtime = 24
+HP = 115
+Armorset = PeasantArmor/PeasantHeavyArmor
+Weaponset = 40/80 slash
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_WEAK
+Visionrange = 
+ShroudClearingRange = 
+
+Yeomen Spearmen
+Cost = 265, 60 CP (bounty value = 5)
+Buildtime = 20
+HP = 190
+Armorset = RohanSpearmenArmor/RohanSpearmenHeavyArmor
+Weaponset = LowEndPikeRohan: 40/80 specialist
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Yeomen Archers
+Cost =  250, 60 CP (bounty value = 4)
+Buildtime = 25
+HP = 200
+Armorset = ArcherArmor/ArcherHeavyArmor
+Weaponset = RohanArcherBowNew: 40 pierce/45+20 flame
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Horsemen of the Mark
+Cost = 460/368, 60 CP (bounty value = 12)
+Buildtime = 30
+HP = 250
+Armorset = IsengardWargArmor
+Weaponset = GondorPinGelSpear: 65/130 cavalry; HorsemenMarkCrush: 90 crush
+Hordespeed = 100
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Westfolders
+Cost = 500, 75 CP (bounty value = 8)
+Buildtime = 25
+HP = 310
+Armorset = SoldierEliteArmor/SoldierEliteHeavyArmor
+Weaponset = 90/180 slash
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Halifirien Wardens
+Cost = 550, 72 CP (bounty value = 13)
+Buildtime = 35
+HP = 230
+Armorset = HalifirienWardenArmor
+Weaponset = HalifirienBow: 65 pierce
+Hordespeed = 55
+Special = RohanHalifirienBlackArrows: 180 pierce
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Rohirrim Warriors
+Cost = 625/500, 80 CP (bounty value = 15)
+Buildtime = 35
+HP = 600
+Armorset = RohirrimArmor/RohirrimHeavyArmor (includes shielded in comments)
+Weaponset = RohanRohirrimSpear: 60/120  Rohirrimcrush = 160 crush
+Hordespeed = 100
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 175
+ShroudClearingRange = 
+
+Rohirrim Archers
+Cost = 900/720, 80 CP (bounty value = 18)
+Buildtime = 45
+HP = 475
+Armorset = RohirrimArcherArmor/RohirrimArcherHeavyArmor
+Weaponset = RohanRohirrimBow: 85 pierce/110 + 20 flame
+Hordespeed = 100
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 375
+ShroudClearingRange = 
+
+Riders of Snowbourn
+Cost = 650/520, 80 (bounty value = 18)
+Buildtime = 35
+HP = 650
+Armorset = SnownbournArmor/SnownbournAxeArmor
+Weaponset
+1 = SnowbournSpear: 240/480 cav
+2 = SnowbournSword: 60/105 cav
+3 = SnowbournAxe: 90/180 cav
+Hordespeed = 105/80
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 175
+ShroudClearingRange = 
+
+Edoras Kingsguard
+Cost = 675, 80 CP (bounty value = 35)
+Buildtime = 25
+HP = 390
+Armorset = DoorWardensHeavyArmor/DoorWardensSwordArmor
+Weaponset = RohanDoorWardenSpear/RohanDoorWardenSword
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Mounted Kingsguard
+Cost =  1350/1080, 100 CP (bounty value = 35)
+Buildtime = 45
+HP = 650
+Armorset = DolAmrothKnightArmor
+Weaponset = DolAmrothLancerLance/RohanKingsguardBow/DolAmrothLancerCrush
+Hordespeed = 100
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Helmingas Warriors
+Cost = 1500, 100 CP (bounty value = 38)
+Buildtime = 60
+HP = 700
+Armorset = HelmingasWardensArmor/HeroMiniMountedArmor
+Weaponset = RohanHelmingasHammer: 100 hero
+Hordespeed = 50 dismounted/100 mounted
+Special = 
+Experience Level = MINI_HORDE
+Visionrange = 
+ShroudClearingRange = 
+
+Rohirric Onager
+Cost = 600, 30 CP (bounty value = 150)
+Buildtime = 30
+HP = 2000
+Armorset = SiegeEngineArmor
+Weaponset = RohirricOnagerRock:
+Hordespeed = 40
+Special = RohanMangonelSpecialRock
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Horse-head Ram
+Cost = 300, 30 CP  (bounty value = 75)
+Buildtime = 30
+HP = 2500
+Armorset = BatteringRamArmor
+Weaponset = IsengardBatteringRam: 600 siege
+Hordespeed = 50
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Erebor
+
+Erebor Warriors
+Cost = 300, 60 CP (bounty value = 8)
+Buildtime = 30
+HP = 300
+Armorset = DwarvenGuardianArmor/DwarvenGuardianHeavyArmor
+Weaponset = DwarvenGuardianAxe: 75/150 slash;DwarvenGuardianSiegeHammer
+Hordespeed = 40
+Special = Natural Sprinters, GuardianCrush: 40/80 crush, 0/100% flanking bonus.
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Erebor Phalanx
+Cost = 300, 60 CP (bounty value = 8)
+Buildtime = 30
+HP = 400
+Armorset = DwarvenPikemenArmor/DwarvenPikemenHeavyArmor
+Weaponset = DwarvenPhalanxPike: 60/120 specialist
+Hordespeed = 40
+Special = Natural Sprinters, GuardianCrush: 40/80 crush, 0/100% flanking bonus.
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Erebor Archers
+Cost = 300, 60 CP (bounty value = 8)
+Buildtime = 30
+HP = 300
+Armorset = ArcherArmor/ArcherHeavyArmor
+Weaponset = EreborDwarvenArcherBow: 55 pierce/80 pierce + 10 slash
+Hordespeed = 40
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Erebor Grim Hammers
+Cost = 275, 60 CP  (bounty value = 6)
+Buildtime = 27
+HP = 220
+Armorset = DwarvenGrimHammerArmor
+Weaponset = DwarvenGrimHammerAxe: 40 in 10 radius/80 slash
+Hordespeed = 50
+Special = lvl 2 passive -10% speed debuff
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Ered Luin Traders
+Cost = 400, 40 CP (bounty value = 23)
+Buildtime = 20
+HP = 240
+Armorset = EredLuinArmor
+Weaponset = EredLuinAxe: 90 slash 
+Hordespeed = 50
+Special = a… special unit; they do buff range on catas a bit
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Lake Town Watchmen
+Cost = 250, 60 CP (bounty value = 4)
+Buildtime = 20
+HP = 220
+Armorset = PikemenArmor/PikemenHeavyArmor
+Weaponset = LaketownPike: 40 specialist
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Lake Town Bowmen
+Cost = 300, 60 CP (bounty value = 5)
+Buildtime = 25
+HP = 200
+Armorset = ArcherArmor/ArcherHeavyArmor
+Weaponset = DwarvenLaketownArcherBow: 40 pierce/45+20 flame
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Guards of the Master
+Cost = 400, 70 CP (bounty value = 10)
+Buildtime = 30
+HP = 400
+Armorset = DaleSoldierArmor/DaleSoldierHeavyArmor
+Weaponset = LaketownSword: 90/180 slash
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Barding Phalanx
+Cost = 325, 60 CP (bounty value = 5)
+Buildtime = 20
+HP = 280
+Armorset = PikemenArmor/PikemenHeavyArmor
+Weaponset = DalePhalanxPike: 50/100 specialist
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Barding Swordsmen
+Cost = 400, 60 CP (bounty value = 10)
+Buildtime = 30
+HP = 400
+Armorset = DaleSoldierArmor/DaleSoldierHeavyArmor
+Weaponset = AngmarSword/AngmarSwordUpgraded: 90/180 slash
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Barding Longbowmen
+Cost = 625, 72 CP (bounty value = 14)
+Buildtime = 30
+HP = 220
+Armorset = ArcherEliteArmor/ArcherEliteHeavyArmor
+Weaponset = DwarvenMenofDaleArcherBow: 75 pierce/105+15 slash
+Hordespeed = 50
+Special = DwarvenMenOfDaleBlackArrows: 75 pierce+150 pierce
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Ered Luin Rangers
+Cost = 400, 60 CP (bounty value = 10)
+Buildtime = 20
+HP = 240
+Armorset = EredLuinRangerArmor
+Weaponset = EredLuinRangerAxe: 75 slash; 75 slash in 10 radius v archers.
+Hordespeed = 65
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Iron Hills Warriors
+Cost = 700, 90 CP (bounty value = 18)
+Buildtime = 30
+HP = 450
+Armorset = IHWarriorArmor
+Weaponset = IronHillsSword/IronHillsPike: 45 slash+45 specialist/90+90
+Hordespeed = 40
+Special = SunderingStrikesDebuff: hit enemies lose -25% armor for 5 seconds
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Iron Hills Crossbows
+Cost = 675, 80 CP (bounty value = 16)
+Buildtime = 35
+HP = 250
+Armorset = IHCrossbowHeavyArmor
+Weaponset = IronHillsCrossbow: 130 pierce
+Hordespeed = 40
+Special = IronHillsCrossbowKnottedStrings
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Vault Wardens
+Cost = 550, 80 CP (bounty value = 13)
+Buildtime = 40
+HP = 600
+Armorset = VaultWardenArmor
+Weaponset = DwarvenVWPike: 120 specialist in 8 radius
+Hordespeed = 40 
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Wyrm Slayers
+Cost = 700, 88 CP (bounty value = 22)
+Buildtime = 50
+HP = 500
+Armorset = DwarvenZerkerArmor
+Weaponset = DwarvenZerkerAxe: 100 slash
+Hordespeed = 60
+Special = DwarvenZerkerSuperAxe aka Immolation;DwarvenZealotBoomAxe
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Khazad Uzbadul
+Cost = 1000, 88 CP (bounty value = 31)
+Buildtime = 40
+HP = 500
+Armorset = KhazadUzbadulArmor
+Weaponset = KhazadUzbadulAxe: 150/250 slash in 7 radius
+Hordespeed = 40
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Custodians of Durin
+Cost = n/a, 0 CP  (bounty value = 31)
+Buildtime = n/a
+HP = 500
+Armorset = DurinCustodianArmor
+Weaponset = DurinCustodianPike = 200 specialist in 7 radius
+Hordespeed = 40
+Special = DurinCustodianPikeFormation: adds knockback to attacks
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Battlewagon
+Cost = 500, 60 CP (bounty value =125)
+Buildtime = 35
+HP = 3500
+Armorset = BattleWagonArmorHeavy
+Weaponset = YurgHorn: 300 cavalry;EreborBattleWagonCrush: 150 crush
+Hordespeed = 85
+Special = 
+Experience Level = DWARVEN_MACHINES
+Visionrange = 
+ShroudClearingRange = 
+
+Dwarven Mangonel
+Cost = 700, 30 CP (bounty value = 150)
+Buildtime = 30
+HP = 2000
+Armorset = SiegeEngineArmor
+Weaponset = DwarfMangonelRock;DwarfMangonelScatter
+Hordespeed = 40
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Iron Hills Demolisher
+Cost = 600, 40 CP (bounty value = 150)
+Buildtime = 30
+HP = 4000
+Armorset = DwarvenDemolisherHeavyArmor
+Weaponset = DwarvenBatteringRam: 1000 siege
+Hordespeed = 40
+Special = DemolisherCrush: 600 crush
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Dwarven Battering Ram
+Cost = 300, 40 CP (bounty value = 100)
+Buildtime = 30
+HP = 2500
+Armorset = BatteringRamArmor
+Weaponset = DwarfBatteringRam: 600 siege
+Hordespeed = 45
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Rivendell
+
+Bounders
+Cost = 200, 48 CP (bounty value = 4)
+Buildtime = 23
+HP = 150
+Armorset = RivendellHobbitArmor
+Weaponset = HobbitStick: 45 slash
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Took Archers
+Cost = 200, 40 CP (bounty value = 5)
+Buildtime = 20
+HP = 180
+Armorset = TookArcherArmor
+Weaponset = TookArcherBow: 35 pierce/45 pierce + 25 slash 
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Bree-land Townsguard
+Cost = 300, 60 CP  (bounty value = 5)
+Buildtime = 30
+HP = 200
+Armorset = BreelandGuardArmor ;RohanSpearmenArmor
+Weaponset = BreelandGuardPike: 40/80 specialist
+Hordespeed = 50
+Special = permanently gains 33% armor at lvl 3
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 300
+
+Dunedain Rangers
+Cost = 500, 72 CP (bounty value = 10)
+Buildtime = 40
+HP = 250
+Armorset = NewDunedainRangerArmor
+Weaponset
+1  ImladrisRangerBow = 65 pierce/80 pierce + 20 slash
+2  ImladrisRangerSword = 85/170 slash w/ 150% scalar v machine
+3  ImladrisRangerSpear = 85/170 specialist w/ 150% scalar v machine
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Dunedain Outriders
+Cost = 650/487, 80 CP (bounty value = 16)
+Buildtime = 40
+HP = 455
+Armorset = ArnorOutriderArmor
+Weaponset = DunedainOutriderSword: 65/130 cav DunedainOutriderCrush: 100 crush
+Hordespeed = 100
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Grey Company
+Cost = 1500, 120 CP (bounty value = 31)
+Buildtime = 50
+HP = 700
+Armorset = GreyCompanyArmor
+Weaponset = GreyCompanyBow;GreyCompanySpear
+1 GreyCompanyBow = 120 pierce
+2 GreyCompanySpear = 120 hero
+Hordespeed = 55
+Special = 
+Experience Level = MINI_HORDE
+Visionrange = 
+ShroudClearingRange = 
+
+Rivendell Guardsman
+Cost = 725, 80 CP  (bounty value = 20)
+Buildtime = 30
+HP = 550
+Armorset = RivendellGuardArmor/RivendellGuardHeavyArmor
+Weaponset = ImladrisElvenWarriorSword: 100/200 slash
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Rivendell Glaivesmen
+Cost = 700, 80 CP (bounty value = 20)
+Buildtime = 30
+HP = 550
+Armorset = RivendellPikemenArmor/RivendellPikemenHeavyArmor
+Weaponset = RivendellPike: 80/160 specialist
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Rivendell Archers
+Cost = 750, 80 CP  (bounty value = 20)
+Buildtime = 35
+HP = 350
+Armorset = RivendellArcherInfArmor/RivendellArcherInfHeavyArmor
+Weaponset = ImladrisElvenBow: 95 pierce/105 pierce + 25 magic
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Knights of Rivendell
+Cost = 1300, 100 CP (bounty value = 30)
+Buildtime = 45
+HP = 800
+Armorset = DolAmrothKnightLightArmor/DolAmrothKnightArmor
+Weaponset
+1 RivendellKnightSpear:
+2 RivendellKnightBow: 55 pierce/65 pierce + 20 magic
+Hordespeed = 100
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Veterans of the Last Alliance
+Cost = 2500, 120 CP (bounty value = 63)
+Buildtime = 70
+HP = 720
+Armorset = LastAllianceVeteranArmor
+Weaponset
+1 NoldorWarriorSilverthornBow: 110 pierce+30 magic
+2 NoldorWarriorSword: 100 hero
+Hordespeed = 55
+Special = 
+Experience Level = MINI_HORDE
+Visionrange = 
+ShroudClearingRange = 
+
+Bree-land Battering Ram
+Cost = 300, 30 CP (bounty value = 75)
+Buildtime = 30
+HP = 2500
+Armorset = BatteringRamArmor
+Weaponset = IsengardBatteringRam: 600 siege
+Hordespeed = 50
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+
+
+Lothlorien
+
+Silvan Levy
+Cost = 300, 60 CP (bounty value = 6)
+Buildtime = 30
+HP = 245
+Armorset = LorienWarriorArmor/LorienWarriorHeavyArmor
+Weaponset = AxeElfAxe: 62/124 slash
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Silvan Sentries
+Cost = 315, 60 CP (bounty value = 5)
+Buildtime = 30
+HP = 240
+Armorset = PikemenArmor/PikemenHeavyArmor
+Weaponset = MithlondSentryPike: 50/100 specialist
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Silvan Scouts
+Cost = 325, 60 CP (bounty value = 7)
+Buildtime = 30
+HP = 220
+Armorset = LorienArcherArmor/LorienArcherHeavyArmor
+Weaponset = LorienElvenBow: 40 pierce/60 pierce + 20 magic
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Riders of the Naith
+Cost = 450, 70 CP (bounty value = 13)
+Buildtime = 30
+HP = 300
+Armorset = NimrodelRiderArmor/NimrodelRiderHeavyArmor
+Weaponset = SilvanRiderSpear/RivendellArcherCrush
+Hordespeed = 100
+Special = ElvenRivHorseBow
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Sentinels of Cerin Amroth
+Cost = 550, 72 (bounty value = 13)
+Buildtime = 40
+HP = 425
+Armorset = AmrothPikemenArmor/AmrothPikemenHeavyArmor
+Weaponset = CerinAmrothPike: 75/150 specialist
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Sindar Pathstalkers
+Cost = 600, 72 (bounty value = 19)
+Buildtime = 45
+HP = 500
+Armorset = LorienStalkerArmor
+Weaponset = LorienStalkerDagger: 120/240 slash both in 6 radius
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Marchwardens
+Cost = 700, 80 CP (bounty value = 18)
+Buildtime = 40
+HP = 400
+Armorset = ElfWarriorArmor/ElfWarriorHeavyArmor
+Weaponset
+1 GaladhrimArcherBow = 80 pierce/95 pierce + 20 magic
+2 ElvenGaladhrimWarriorSword = 100/200 slash
+Hordespeed = 55
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+ Radiant-Maiden
+Cost = 425, 50 CP  (bounty value = 113)
+Buildtime = 25
+HP = 2000
+Armorset = HandmaidenArmor
+Weaponset = HandmaidensWeapon: 175 hero/275 hero in 10 radius (glaive)
+Hordespeed = 60
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Knights of Amroth Amdirion
+Cost = 1000, 90 CP (bounty value = 25)
+Buildtime = 45
+HP = 590
+Armorset = DolAmrothKnightArmor
+Weaponset = AmrothKnightSword: 70/140 cavalry; 180 crush
+Hordespeed = 100
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Nandor Hir-Hathol
+Cost = 1600, 100 (bounty value = 40)
+Buildtime = 60
+HP = 720
+Armorset = NandorHirHatholArmor
+Weaponset
+1 NandorBlademasterSword
+2 NandorBlademasterAxe
+Hordespeed = 55 
+Special = 
+Experience Level = MINI_HORDE
+Visionrange = 
+ShroudClearingRange = 
+
+Ent
+Cost = 700, 60 CP  (bounty value = 175)
+Buildtime = 45
+HP = 2500
+Armorset = EntArmor
+Weaponset
+1 = RohanTreeBeardPunch
+2 = RohanEntRockThrow
+Hordespeed = 40
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+Woodland Realm
+
+Feredir
+Cost = 150, 6 CP (bounty value = 15)
+Buildtime = 15
+HP = 100
+Armorset = NoArmor
+Weaponset = SilvanHunterBow = 130 pierce
+Hordespeed = 65
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Silvan Rangers
+Cost = 335, 60 CP  (bounty value = 9)
+Buildtime = 25
+HP = 220
+Armorset = MirkwoodArcherArmor
+Weaponset = MirkwoodRangerBow: 45 pierce/60 pierce + 20 magic
+Hordespeed = 65
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Silvan Wardens
+Cost = 300, 60 CP (bounty value = 8)
+Buildtime = 25
+HP = 245
+Armorset = GreenwoodWardenArmor
+Weaponset = GreenwoodWardenDagger = 72/144 slash
+Hordespeed = 65
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Silvan Spearmen
+Cost = 300, 60 CP (bounty value = 9)
+Buildtime = 25
+HP = 245
+Armorset = GreenwoodPikemenArmor
+Weaponset = GreenwoodSpear = 70/140 specialist
+Hordespeed = 65
+Special = 
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Silvan Outriders
+Cost = 500, 70 CP (bounty value = 11)
+Buildtime = 35
+HP = 300
+Armorset = Outriderarmor
+Weaponset = MirkwoodHorseBow = 35 pierce/50+20 magic; 85 crush
+Hordespeed = 100
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Woodsmen Hunters
+Cost = 350, 60 CP (bounty value = 8)
+Buildtime = 30
+HP = 375
+Armorset = WoodmanArmor
+Weaponset
+1 WoodmenBow = 38 pierce/65 pierce + 20 magic
+2 WoodmenAxe =  12 siege + 45 slash/24 + 90
+Hordespeed = 50
+Special = Mark of Bema, effected units lose -10% armor
+Experience Level = GOOD_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Greenwood Slayers
+Cost = 650, 80 CP  (bounty value = 15)
+Buildtime = 30
+HP = 500
+Armorset = GreenwoodSlayerArmor
+Weaponset = GreenwoodSlayerWeapon = 50/100 slash in 15 radius
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Greenwood Swordsmen
+Cost = 700, 80 CP (bounty value = 18)
+Buildtime = 30
+HP = 500
+Armorset = GreenwoodWarriorArmor
+Weaponset = GreenwoodWarriorSword = 110/220 slash
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Greenwood Archers
+Cost = 800, 80 CP (bounty value = 20)
+Buildtime = 40 
+HP = 300
+Armorset = GreenwoodArcherArmor
+Weaponset = GreenwoodArcherBow = 90 pierce/110 pierce + 20 magic
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Guards of the Palace
+Cost = 800, 80 CP (bounty value = 20)
+Buildtime = 45
+HP = 425
+Armorset = PalaceGuardArmor
+Weaponset = MirkwoodPalaceGuardPike = 75/150 specialist
+Hordespeed = 50
+Special = 
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Sindar Nobles
+Cost = 1000, 100 CP  (bounty value = 25)
+Buildtime = 45
+HP = 650
+Armorset = AmrothKnightHeavyArmor
+Weaponset = AmrothKnightSword = 70/140 cavalry; DolAmrothLancerCrush = 180 crush
+Hordespeed = 100
+Special = 
+Experience Level = GOOD_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Beorning Berserkers
+Cost = 900, 90 CP (bounty value = 83)
+Buildtime = 50
+HP = 1100
+Armorset = BeorningArmor
+Weaponset = BeorningAxe = 225 siege in 15 radius
+Hordespeed = 55 
+Special = TrollCrush = 10 crush damage
+Experience Level = GOOD_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Gilded Guard of Lasgalen
+Cost = 1600, 100 CP (bounty value = 50)
+Buildtime = 60
+HP = 800
+Armorset = HeroMiniMountedArmor
+Weaponset = GildedGuardAxe: 180 cav;  HelmingasCrush: 200 crush
+Hordespeed = 100
+Special = GildedGuardWeepingBlade: 140 unresistable
+Experience Level = MINI_HORDE
+Visionrange = 
+ShroudClearingRange = 
+
+Distant-thrower
+Cost = 500, 30 CP (bounty value = 125)
+Buildtime = 40
+HP = 2000
+Armorset = SiegeEngineArmor
+Weaponset = MirkwoodBallistaWeapon: 600 damage in 50 radius w/ 50 damagetaperoff
+Hordespeed = 35
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Beorning Battering Ram
+Cost = 300, 30 CP (bounty value = 90)
+Buildtime = 30
+HP = 2500
+Armorset = BatteringRamArmor
+Weaponset = GreenwoodBatteringRam: 600 siege damage
+Hordespeed = 45
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Isengard
+
+Wildmen of Dunland
+Cost = 200, 48 CP (bounty value = 4)
+Buildtime = 20
+HP = 150
+Armorset = WildmenArmor/WildmenHeavyArmor
+Weaponset = IsengardWildmanCudgel = 40 slash/40+12 flame
+Hordespeed = 55
+Special = at lvl 2 wildmen steal 1 resource every time they hit a structure
+Experience Level = WILDMEN
+Visionrange = 
+ShroudClearingRange = 
+
+Wildmen Spearmen
+Cost = 250, 60 CP (bounty value = 5)
+Buildtime = 20
+HP = 150
+Armorset = WildmanPikemenArmor;WildmanPikemenHeavyArmor
+Weaponset = WildmanSpearmenWeapon = 40 specialist
+Hordespeed = 55
+Special = at lvl 2 wildmen spears steal 1 resource every time they hit a structure
+Experience Level = WILDMEN
+Visionrange = 
+ShroudClearingRange = 
+
+Wildmen Skirmishers
+Cost = 250, 60 CP  (bounty value = 5)
+Buildtime = 20
+HP = 200
+Armorset = WildmenMissileArmor
+Weaponset = WildmanThrowingAxe = 42 slash
+Hordespeed = 55
+Special = 
+Experience Level = WILDMEN
+Visionrange = 
+ShroudClearingRange = 
+
+Uruk-hai Scouts
+Cost = 375, 60 CP  (bounty value = 8)
+Buildtime = 30
+HP = 300
+Armorset = UrukScoutArcherArmor
+Weaponset
+1 IsengardScoutBow = 55 pierce
+2 IsengardScoutSword = 60 slash
+Hordespeed = 55
+Special = lvl 3 Hunting Arrows debuff = -66% speed for 5 seconds every hit
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Warg Riders
+Cost = 425, 70 CP  (bounty value = 11)
+Buildtime = 30
+HP = 275
+Armorset = IsengardWargArmor/WargHeavyArmor
+Weaponset = IsengardWargRiderWeapon = 55/110 cavalry; WargCrush = 85 crush
+Hordespeed = 100
+Special = 
+Experience Level = EVIL_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Fighting Uruk-hai
+Cost = 550/440, 60 CP (bounty value = 8)
+Buildtime = 30
+HP = 305
+Armorset = UrukHaiArmor/UrukHaiHeavyArmor
+Weaponset = IsengardBannerSword = 100 slash/200
+Hordespeed = 55
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Uruk-hai Crossbowmen
+Cost = 600/480, 60 CP  (bounty value = 9)
+Buildtime = 30
+HP = 265
+Armorset = CrossbowArmor/CrossbowHeavyArmor
+Weaponset = IsengardArcherBow = 85 pierce/90 pierce + 30 flame
+Hordespeed = 55
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Uruk-hai Pikemen
+Cost = 600,480 60 CP (bounty value = 9)
+Buildtime = 30
+HP = 305
+Armorset = UrukPikeArmor/UrukPikeHeavyArmor
+Weaponset = IsengardPikemanPike = 70/140 specialist
+Hordespeed = 55
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Uruk-hai Shieldbearers
+Cost = 400, 30 CP (bounty value = 17)
+Buildtime = 30
+HP = 300
+Armorset = ShieldbearerArmor/ShieldbearerHeavyArmor
+Weaponset = ShieldBearerSword = 40 slash/80
+Hordespeed = 55
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Uruk-hai Berserker
+Cost = 450, 50 CP (bounty value = 100)
+Buildtime = 25
+HP = 800
+Armorset = BerserkerArmor
+Weaponset = IsengardBerserkerSword; 225 hero in 10 radius/250 in 15 radius
+Hordespeed = 60 
+Special = 
+Experience Level = EvilSingle
+Visionrange = 
+ShroudClearingRange = 
+
+Dunlending Axemen
+Cost = 460, 60 CP (bounty value = 8)
+Buildtime = 25
+HP = 250
+Armorset = DunlendingAxeArmor/DunlendingAxeHeavyArmor
+Weaponset = DunlendingAxe = 80/160 slash in 8 radius
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Dunlending Longbowmen
+Cost = 600, 72 CP (bounty value = 14)
+Buildtime = 30
+HP = 190
+Armorset = DunlandArcherArmor
+Weaponset = DunlendingBow: 85 pierce/100+30 flame
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Dunnish Outriders
+Cost = 900, 90 CP (bounty value = 23)
+Buildtime = 40
+HP = 700
+Armorset = RohirrimHeavyArmor
+Weaponset = DunlendingOutriderLance = 70/140 cavalry; 180 crush damage.
+Hordespeed = 100
+Special = 
+Experience Level = EVIL_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Dunlending Huskarls
+Cost = 1000, 80 CP (bounty value = 25)
+Buildtime = 40
+HP = 500
+Armorset = HarbingerArmor
+Weaponset = HuskarlSword: 200 slash in 7 radius
+Hordespeed = 50
+Special = HuskarlSwordMordhau = 200 unresistable+100 slash
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Uruk-hai Man-slayers
+Cost = 1500, 120 CP (bounty value = 47)
+Buildtime = 70
+HP = 625
+Armorset = IsengardFanaticArmor
+Weaponset = IsengardFanaticSword = 120 hero in 5 radius
+Hordespeed = 55
+Special = 
+Experience Level = MINI_HORDE_EVIL
+Visionrange = 
+ShroudClearingRange = 
+
+Isengard Sapper
+Cost = 600, 50 CP (bounty value = 150)
+Buildtime = 25
+HP = 800
+Armorset = BerserkerArmor
+Weaponset = IsengardMineBerserkerSelf
+Hordespeed = 60
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Isengard Ballista
+Cost = 500 (bounty value = 125)
+Buildtime = 40
+HP = 2000
+Armorset = SiegeEngineArmor
+Weaponset = IsengardBallistaWeapon:
+Hordespeed = 35
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Explosive Mine
+Cost = 400, 10 CP (bounty value = 100)
+Buildtime = 45
+HP = 1500
+Armorset = ExplosiveMineArmor
+Weaponset = IsengardExplosiveMineExplosionWeapon
+Hordespeed = 45
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Isengard Battering Ram
+Cost = 300, 30 CP (bounty value = 75)
+Buildtime = 30
+HP = 2500
+Armorset = BatteringRamArmor
+Weaponset = IsengardBatteringRam: 600 siege
+Hordespeed = 45
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Mordor
+
+Orc Warriors
+Cost = 80, 40 CP (bounty value = 1)
+Buildtime = 25
+HP = 75
+Armorset = MordorOrcArmor
+Weaponset = MordorWarriorAxe: 20 slash
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_WEAK
+Visionrange = 
+ShroudClearingRange = 
+
+Orc Pikemen
+Cost = 225, 60 CP (bounty value = 3)
+Buildtime = 25
+HP = 125
+Armorset = MordorPikeArmor
+Weaponset = MordorPike: 35 specialist 
+Hordespeed = 50 
+Special = 
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Orc Archers
+Cost = 225, 60 CP (bounty value = 3)
+Buildtime = 25
+HP = 125
+Armorset = MordorArcherArmor
+Weaponset = MordorArcherBow: 25 pierce/25 pierce + 15 flame
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Black Uruk Marauders
+Cost = 400, 60 CP (bounty value = 8)
+Buildtime = 25
+HP = 375
+Armorset = BlackUrukArmor
+Weaponset = BlackOrcSword/BlackOrcSwordUpgraded
+Hordespeed = 55
+Special = 
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Variags of Khand
+Cost = 350, 60 CP (bounty value = 6)
+Buildtime = 22
+HP = 250
+Armorset = VariagArmor/VariagHeavyArmor
+Weaponset = VariagSword/Variagswordupgraded: 65/130 slash
+Hordespeed = 50
+Special = speedbuff at lvl 1
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Great Khan’s Phalanx
+Cost = 550, CP 75 (bounty value = 9)
+Buildtime = 25
+HP = 350
+Armorset = RhunArmor/RhunHeavyArmor
+Weaponset = MordorEasterlingPike: 60/120 specialist
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Great Khan’s Archers
+Cost = 650, 75 CP (bounty value = 14)
+Buildtime = 40
+HP = 200
+Armorset = ArcherEliteArmor/ArcherEliteHeavyArmor
+Weaponset = EasterlingBowNew: 85 pierce/115+15 slash
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Golden Cataphracts
+Cost = 900, 90 CP (bounty value = 16)
+Buildtime = 35 
+HP = 600
+Armorset = KataphraktArmor/DolAmrothKnightArmor
+Weaponset = KataphractLance: 80/160 cavalry;DolAmrothLancerCrush = 180 crush
+Hordespeed = 100
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Golden Axemen
+Cost = 900, 80 CP (bounty value = 23)
+Buildtime = 40 
+HP = 500
+Armorset = HarbingerArmor
+Weaponset = EasterlingAxe: 175 slash
+Hordespeed = 50
+Special = EasterlingAxeSplash: 175 slash in 7 radius
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Mountain Troll
+Cost = 600, 45 CP (bounty value = 150)
+Buildtime = 35
+HP = 2500
+Armorset = TrollArmor
+Weaponset
+1 = MordorCaveTrollPunch
+2 = MordorCaveTrollBash
+3 = MordorCaveTrollClubSwing
+4 = TrollRockThrow
+Hordespeed = 60
+Special = 
+Experience Level = EVIL_MONSTER
+Visionrange = 
+ShroudClearingRange = 
+
+Drummer Troll
+Cost = 600, 35 CP (bounty value = 150)
+Buildtime = 30
+HP = 2700
+Armorset = DrummerTrollArmor
+Weaponset = MordorDrummerTrollPunch
+Hordespeed = 50
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Olog-hai
+Cost = 1200, 80 CP (bounty value = 288)
+Buildtime = 45
+HP = 3000
+Armorset = AttackTrollArmor
+Weaponset = MordorAttackTrollClubSwing
+Hordespeed = 65
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Great Beast of Gorgoroth
+Cost = 1500, 60 CP (bounty value = 400)
+Buildtime = 55
+HP = 8000
+Armorset = MumakilArmor
+Weaponset = MordorMumakilKnockback;MumakilCrush: 800 crush
+Hordespeed = 45
+Special = MordorMumakilCharge:
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Legions of Morgul
+Cost = 750 (bounty value = 13)
+Buildtime = 20 
+HP = 300
+Armorset = BlackOrcHeavyArmor
+Weaponset = MorgulOrcSword: 70/140 slash
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Witch Kings Vanguard
+Cost = 1700, 100 CP (bounty value = 50)
+Buildtime = 60
+HP =  850
+Armorset = HelmingasWardensArmor/NazgulArmorMounted
+Weaponset = MorgulVanguardMace/HelmingasCrush
+Hordespeed = 50/100
+Special = 
+Experience Level = MINI_HORDE_EVIL
+Visionrange = 
+ShroudClearingRange = 
+
+Grond
+Cost = 5000, 120 CP (bounty value = 1250)
+Buildtime = 60
+HP = 45000
+Armorset = GrondArmor
+Weaponset = MordorGrondRam: 2500 siege in a 5 radius
+Hordespeed = 10
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Mordor Catapult
+Cost = 700, 30 CP (bounty value = 150)
+Buildtime = 30
+HP = 2000
+Armorset = SiegeEngineArmor
+Weaponset = MordorCatapultRock: 600 siege in 50 radius + 400 flame in 30 radius
+Hordespeed = 40
+Special = MordorCatapultHumanHeadsWarhead:
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+
+Mordor Battering Ram
+Cost = 300, 30 CP (bounty value =)
+Buildtime = 
+HP = 
+Armorset = 
+Weaponset = 
+Hordespeed = 
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Misty Mountains
+
+Moria Orc Screechers
+Cost = 100, 45 CP (bounty value = 1)
+Buildtime = 30
+HP = 50
+Armorset = GoblinFighterArmor
+Weaponset = GoblinFighterSword/GoblinFighterSwordPoisoned
+Hordespeed = 65
+Special = 
+Experience Level = EVIL_WEAK
+Visionrange = 
+ShroudClearingRange = 
+
+Moria Orc Archers
+Cost = 250, 60 CP (bounty value = 3)
+Buildtime = 30
+HP = 100
+Armorset = GoblinArcherArmor
+Weaponset = GoblinArcherBow/GoblinArcherBowPoisonArrows
+Hordespeed = 65
+Special = 
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Warg Pack
+Cost = 325, 40 CP (bounty value = 9)
+Buildtime = 30
+HP = 250
+Armorset = WargPackArmor
+Weaponset = WargPackWeapon: 55; cavalry;Wargpackcrush: 50 crush
+Hordespeed = 100
+Special = 
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Mountain-orc Slashers
+Cost = 375, 60 CP (bounty value = 7)
+Buildtime = 30
+HP = 250
+Armorset = SoldierArmor/SoldierHeavyArmor
+Weaponset = MountainOrcSword: 60/120 slash
+Hordespeed = 50
+Special = 
+Experience Level = SnOrc
+Visionrange = 
+ShroudClearingRange = 
+
+Mountain-orc Brutes
+Cost = 375, 60 CP (bounty value = 6)
+Buildtime = 30
+HP = 270
+Armorset = PikemenArmor/PikemenHeavyArmor
+Weaponset = WildMountainOrcPike: 45/90 specialist damage
+Hordespeed = 50
+Special = 
+Experience Level = SnOrc
+Visionrange = 
+ShroudClearingRange = 
+
+Mountain-orc Scouts
+Cost = 350, 60 CP (bounty value = 6)
+Buildtime = 35
+HP = 200
+Armorset = ArcherArmor/ArcherHeavyArmor
+Weaponset = MountainOrcBow_New: 55 pierce/65 pierce + 20 flame
+Hordespeed = 50
+Special = MountainOrcArcherBarbedArrowsBow
+Experience Level = SnOrc
+Visionrange = 
+ShroudClearingRange = 
+
+Gundabad Berserkers
+Cost = 800, 90 CP (bounty value = 20)
+Buildtime = 30 
+HP = 600
+Armorset = GundabadBerserkerHeavyArmor
+Weaponset = GundabadBeserkerSword/Spear: 55 slash + 55 specialist/110+110
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Gundabad Wolf Riders
+Cost = 550, 80 CP  (bounty value = 16)
+Buildtime = 30
+HP = 375
+Armorset = WargHeavyArmor
+Weaponset = WargRiderWeapon: 60/120 cavalry;GundabadWolfCrush: 140 crush
+Hordespeed = 90
+Special = 
+Experience Level = ELITE_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Bolg’s Bodyguard
+Cost = 1500, 100 CP (bounty value = 38)
+Buildtime = 70
+HP = 800
+Armorset = BodyguardArmor
+Weaponset = BodyGuardSword: 185 hero
+Hordespeed = 60
+Special = BodyGuardBoomThrown: 220 flame in a 15 radius
+Experience Level = MINI_HORDE_EVIL
+Visionrange = 
+ShroudClearingRange = 
+
+Cave Troll
+Cost = 500, 45 CP (bounty value = 125)
+Buildtime = 35 
+HP = 2500
+Armorset = CaveTrollArmor
+Weaponset 
+1 = MordorCaveTrollPunch
+2 = MordorCaveTrollBash
+3 = MordorCaveTrollClubSwing
+4 = TrollRockThrow
+Hordespeed = 65
+Special = CaveTrollGoblinThrow
+Experience Level = EVIL_MONSTER
+Visionrange = 
+ShroudClearingRange = 
+
+Giant Bat
+Cost = 700, 50 CP (bounty value = 188)
+Buildtime = 40
+HP = 1500
+Armorset = GiantBatArmor
+Weaponset
+1 = GiantBatPlowAttack
+2 = GiantBatClawAttack
+Hordespeed = 
+Special = GiantBatPlowAttackUpgrade;GiantBatClawAttackUpgrade
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Snow Trolls
+Cost = 850, 80 CP (bounty value = 40)
+Buildtime = 45
+HP = 720
+Armorset = SnowTrollNewArmor
+Weaponset
+1 = WildSnowTrollSpearThrow
+2 = WildSnowTrollHammer
+Hordespeed = 60
+Special = WildSnowTrollSpearThrowSpecial
+Experience Level = EVIL_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Troll Destroyer (10pp summon)
+Cost = n/a (bounty value = 288)
+Buildtime = n/a
+HP = 2500
+Armorset = AttackTrollArmor
+Weaponset
+1 = MMDestroyerTrollClubSwing
+2 = MMDestroyerTrollClubBash
+Hordespeed = 65
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Gundabad Stone-troll
+Cost = 1000, 90 CP (bounty value = 225)
+Buildtime = 45
+HP = 3000
+Armorset = AttackTrollArmor/AttackTrollHeavyArmor
+Weaponset = WildAttackTrollClubSwing
+Hordespeed = 65
+Special = WildAttackTrollClubSwing_ThickSkull
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Mountain Giant
+Cost = 900, 60 CP  (bounty value = 300)
+Buildtime = 45
+HP = 3400
+Armorset = MountainGiantArmor
+Weaponset
+1 = WildMountainGiantPunch1-3
+2 = WildMountainGiantMovingPunch
+3 = GiantBuildingTeardown
+4 = GiantRockThrow
+Hordespeed = 40
+Special = Stomp: 250 force in a 80 radius
+Experience Level = EVIL_MONSTER
+Visionrange = 
+ShroudClearingRange = 
+
+Dead of Arnor
+Cost = 300, 48 CP  (bounty value =)
+Buildtime = 20
+HP = 
+Armorset = 
+Weaponset = 
+Hordespeed = 65
+Special = 
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+White Wolves
+Cost = 750, 80 CP (bounty value = ?)
+Buildtime = 30
+HP = 500
+Armorset = WargHeavyArmor
+Weaponset = WhiteWolfWeapon;SnowbournCrush
+Hordespeed = 100
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Fire Wyrm
+Cost = 1,400, 50 CP  (bounty value = 500)
+Buildtime = 60
+HP = 3500
+Armorset = FireDrakeArmor
+Weaponset = FireDrakeFlame;FireWyrmCrush
+Hordespeed = 55
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Cold Drake
+Cost = 2000, 80 CP (bounty value = 500)
+Buildtime = 55 
+HP = 6000
+Armorset = ColdDrakeArmor
+Weaponset
+1 = ColdDrakePlowAttack
+2 = ColdDrakeGrabAttack
+3 = ColdDrakeClawAttack
+Hordespeed = 95
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Goblin-town Warriors
+Cost = 85, 40 CP (bounty value = 1)
+Buildtime = 24
+HP = 60
+Armorset = GoblinFighterArmor
+Weaponset = GoblinTownerSword;GoblinTownerSwordStructure
+Hordespeed = 65
+Special = 
+Experience Level = EVIL_WEAK
+Visionrange = 
+ShroudClearingRange = 
+Dol Guldur
+
+Broken Rabble
+Cost = 100, 45 CP  (bounty value = 2)
+Buildtime = 25
+HP = 100
+Armorset = BrokenRabbleArmor
+Weaponset = BrokenRabbleSword: 50 slash
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_WEAK
+Visionrange = 
+ShroudClearingRange = 
+
+Orc Gaolers
+Cost = 225, 60 CP (bounty value = 3)
+Buildtime = 25
+HP = 125
+Armorset = GuldurPikeArmor
+Weaponset = MordorPike: 35 specialist 
+Hordespeed = 50
+Special = GuldurPikeArmor_Necromancy
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Orc Hunters
+Cost = 225, 60 CP  (bounty value = 3)
+Buildtime = 25
+HP = 125
+Armorset = GuldurArcherArmor
+Weaponset = GuldurOrcArcherBow: 25 pierce/25 pierce + 15 flame
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Orc Ravagers
+Cost = 600, 72 CP (bounty value = 19)
+Buildtime = 40 
+HP = 920
+Armorset = OrcRavagerArmor
+Weaponset = GuldurOrcRavagerWeapon;GuldurRavagerCrush
+Hordespeed = 50
+Special = GuldurOrcRavagerWeaponAppetite	
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Tomb Guard
+Cost = 800, 80 CP (bounty value = 25)
+Buildtime = 40 
+HP = 625
+Armorset = TombGuardArmor
+Weaponset = GuldurTombGuardPike: 110 specialist
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Fell Brood
+Cost = 450, 70 CP (bounty value = 11)
+Buildtime = 30 
+HP = 320
+Armorset = FellBroodArmor ;WargArmor
+Weaponset = WildSpiderlingMandibles = 95 cavalry;FellBroodCrush = 75 crush
+Hordespeed = 100
+Special = WildSpiderlingVenomMandibles: 100 cav +6 poison every sec for 30 seconds
+Experience Level = EVIL_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Saenathra’s Sisters
+Cost = 575, 50 CP (bounty value = 135)
+Buildtime = 35
+HP = 2750
+Armorset = SpiderSisterArmor
+Weaponset = SpiderSisterMandibles = 250 siege in 18 radius;SisterCrush = 160 crush
+Hordespeed = 90
+Special = 
+Experience Level = EVIL_MONSTER
+Visionrange = 
+ShroudClearingRange = 
+
+Blighted Trappers
+Cost = 600, 80 CP (bounty value = 14)
+Buildtime = 35
+HP = 220
+Armorset = BlightedTrappersArmor
+Weaponset = GuldurTrapperLanceThrown: 110 slash
+Hordespeed = 55
+Special = GuldurTrapperLanceThrownPoisoned: 120 slash + 24 siege + poison DOT
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Corrupted Entwives
+Cost = 650, 60 CP (bounty value = 163)
+Buildtime = 40
+HP = 1650
+Armorset = EntArmor
+Weaponset = EntwifePunch/EntwifeRockThrow/EntCrush
+Hordespeed = 65
+Special = 
+Experience Level = n/a
+Visionrange = 
+ShroudClearingRange = 
+
+Unburied Wights
+Cost = 900, 0 CP (bounty value = 100)
+Buildtime = 45
+HP = 1800
+Armorset = UnburiedArmor
+Weaponset = UnburiedWightSword: 130 slash in 5 radius
+Hordespeed = 60
+Special = UnburiedWightSwordRavenousHunger
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Harbingers of Shadow
+Cost = 750, 88 CP (bounty value = 23)
+Buildtime = 35 
+HP = 450
+Armorset = DGHarbingerArmor
+Weaponset = HarbingerSword: 200 slash in 5 radius w/ 125% scalar v heroes
+Hordespeed = 55
+Special = at lvl 2 Harbingers also debuff enemies they strike, -15% armor, -10% speed.
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Armoured Castellan
+Cost = 1000, 45 CP (bounty value = 225)
+Buildtime = 25
+HP = 2500
+Armorset = CastellanArmor
+Weaponset = CastellanSword: 150 hero in 15 radius
+Hordespeed = 40
+Special = 
+Experience Level = MINI_HORDE_EVIL
+Visionrange = 
+ShroudClearingRange = 
+
+Risen Dead
+Cost = n/a, 60 CP  (bounty value = 6)
+Buildtime = n/a
+HP = 200
+Armorset = GuldurRisenDead
+Weaponset = RisenDeadWeapon: 65 slash
+Hordespeed = 65
+Special = 
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Haradwaith
+
+Harondor Warlord
+Cost = 200, 50  (bounty value = 5)
+Buildtime = 20
+HP = 500
+Armorset = HarondorWarlordArmor
+Weaponset = ThrallMasterClub: 20 slash
+Hordespeed =  60
+Special = Lies & Threats buff = HarondorWarlordHeavyArmor
+Experience Level = WARLORDS
+Visionrange = 
+ShroudClearingRange = 
+
+Tribal Axemen
+Cost = Free, 50 CP (bounty value = 3)
+Buildtime = n/a
+HP = 100
+Armorset = TribalAxemenArmor
+Weaponset = TribalAxemenAxe: 40 slash
+Hordespeed = 55
+Special = +6 flame damage with cultist buff
+Experience Level = EVIL_WEAK
+Visionrange = 
+ShroudClearingRange = 
+
+Tribal Spearmen
+Cost = 50, 50 CP  (bounty value = 5)
+Buildtime = n/a
+HP = 145
+Armorset = TribalSpearArmor
+Weaponset = TribalSpearmenSpear: 35 specialist
+Hordespeed = 55
+Special = +5 flame damage with cultist buff
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Tribal Bowmen
+Cost = 50, 50 CP (bounty value = 5)
+Buildtime = n/a
+HP = 135
+Armorset = TribalJavelinArmor
+Weaponset = HaradLanceThrownWarhead: 35 pierce
+Hordespeed = 55
+Special = 
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Harondor Raiders
+Cost = 500, 80 CP (bounty value = 13)
+Buildtime = 30 
+HP = 365
+Armorset = HarondorRaiderArmor/HarondorRaiderHeavyArmor
+Weaponset = HarondorRaiderWeapon: 65/130 cavalry;HarondorCrush: 110 crush
+Hordespeed = 100
+Special = Serpent’s Lunge formation;+15% damage, -25% armour, -50% crush deceleration, +10 flame damage with cultist buff
+Experience Level = EVIL_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Harondor Spearmen
+Cost = 550, 75 CP (bounty value = 10)
+Buildtime = 25
+HP = 320
+Armorset = HarondorSpearmenArmor/HarondorSpearmenHeavyArmor
+Weaponset = HarondorSpearmenSpear: 60/120 specialist
+Hordespeed = 50
+Special = +9 flame damage with cultist buff
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Harondor Archers
+Cost = 550, 72 CP  (bounty value = 11)
+Buildtime = 40 
+HP = 235
+Armorset = ArcherEliteArmor/ArcherEliteHeavyArmor
+Weaponset = HarondorArcherBow: 85/105 pierce + 20 flame
+Hordespeed = 50
+Special = 
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Mahud Warriors
+Cost = 335, 60 CP (bounty value = 7)
+Buildtime = 25 
+HP = 250
+Armorset = MahudWarriorArmor
+Weaponset = MahudWarriorCudge: 75 slash
+Hordespeed = 60
+Special = +11 flame damage with cultist buff
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Mahud Headhunters
+Cost = 450, 60 CP (bounty value = 9)
+Buildtime = 30
+HP = 220
+Armorset = MahudHeadhunterArmor
+Weaponset = MahudHeadhunterBlowpipe: 58 pierce
+Hordespeed = 60 
+Special = SerpentsVenom/TwilightsMistress
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Mahud Chieftain
+Cost = 500, 50CP (bounty value = 125)
+Buildtime = 20
+HP = 1500
+Armorset = MahudChiefArmor
+Weaponset = MahudChiefWeapon: 100 hero in 10 radius + 50 hero in 20 radius
+Hordespeed = 60
+Special = +23 flame damage with cultist buff; MahudChiefWeaponLevel3
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+War Mumak
+Cost = 1600, 60 CP (bounty value = 400)
+Buildtime = 75 
+HP = 8000
+Armorset = MumakilArmor
+Weaponset = MordorMumakilKnockback; MumakilCrush: 800 crush
+Hordespeed = 45 (60 enraged)
+Special = MordorMumakilCharge:
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Siege Mumak
+Cost = 1600, 60 CP (bounty value = 400)
+Buildtime = 75
+HP = 8000
+Armorset = SiegeMumakilArmor
+Weaponset
+1 = SiegeMumakRock: 900 siege in 50 radius
+2 = MordorMumakilKnockback:
+3 = SiegeMumakilCrush: 400 crush
+Hordespeed = 40 (60 enraged)
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Hasharin Blades
+Cost = 670, 30 CP (bounty value = 188)
+Buildtime = 25
+HP = 1700
+Armorset = HasharinArmor
+Weaponset = HasharinWeapon:
+Hordespeed = 60
+Special = +45 flame damage with cultist buff;
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Corsairs of Umbar
+Cost = 350, 60 CP (bounty value = 6)
+Buildtime = 30
+HP = 330
+Armorset = CorsairsArmor
+Weaponset = HaradCorsairSword: 50/100 slash; HaradCorsairFireBomb: 10 flame
+Hordespeed = 55
+Special = +8 flame damage on melee weapon with cultist buff
+Experience Level = EVIL_TROOPS
+Visionrange = 
+ShroudClearingRange = 
+
+Black Numenorean Warriors
+Cost = 700, 80 CP (bounty value = 18)
+Buildtime = 30
+HP = 525
+Armorset = BlackNumenoreanArmor/BlackNumenoreanHeavyArmor
+Weaponset = BlackNumenoreanWarriorSword: 90/180 slash
+Hordespeed = 50
+Special = +14 flame damage with cultist buff
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 
+
+Black Numenorean Vanguard
+Cost = 1000, 90 CP (bounty value = 25)
+Buildtime = 35
+HP = 675
+Armorset = DolAmrothKnightLightArmor/DolAmrothKnightArmor
+Weaponset = BlackNumenoreanVanguardWeapon/RohirrimCrush
+Hordespeed = 100
+Special = +7 flame w/ cultist buff/BlackNumenoreanVanguardWeaponArmouredCharge
+Experience Level = EVIL_CAVALRY
+Visionrange = 
+ShroudClearingRange = 
+
+Watchers of Karna
+Cost = 1500, 100 CP (bounty value = 38)
+Buildtime = 60
+HP = 660
+Armorset = HeroMiniFootArmor
+Weaponset = WatchersofKarnaStaff: 80 hero
+Hordespeed = 55
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Carrion Feeder
+Cost = 350, 30 CP (bounty value = 94)
+Buildtime = 35 
+HP = 750
+Armorset = GiantBatArmor
+Weaponset
+1 = VulturePlowAttack
+2 = VultureClawAttack
+Hordespeed = 85
+Special = Putrid Talons adds +10 poison damage every sec for 15 sec to weapon
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Great Scorpion
+Cost = 600, 45 CP (bounty value = 150)
+Buildtime = 35
+HP = 2250
+Armorset = GiantScorpionArmor
+Weaponset = GiantScorpionAttack: 190 siege in 20 radius + 100 undefined in 20 radius
+Hordespeed = 65 
+Special = GiantScorpionHardenedCarapace; PoisonedStinger
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Karadd Patriarch
+Cost = 750, 75 CP (bounty value = 200)
+Buildtime = 45
+HP = 4000
+Armorset = KaraddArmor
+Weaponset
+1 = KaraddPunch
+2 = KaraddBash
+3 = TrollCrush
+Hordespeed = 85
+Special = 
+Experience Level = EVIL_MONSTER
+Visionrange = 
+ShroudClearingRange = 
+
+Nafarati Beastmaster
+Cost = 400, 50 CP (bounty value = 100)
+Buildtime = 20 
+HP = 500
+Armorset = BeastmasterArmor
+Weaponset = BeastmasterBow: 200 pierce
+Hordespeed = 60
+Special = 
+Experience Level =
+Visionrange = 
+ShroudClearingRange = 
+
+Guards of the Serpent
+Cost = 1800, 100 CP (bounty value = 45)
+Buildtime = 60
+HP = 625
+Armorset = HelmingasWardensArmor/SerpentGuardArmor (dismount/mount)
+Weaponset = GuardoftheSerpentWeapon: 90 hero
+Hordespeed = 50/100 (dismount/mount)
+Special = GuardoftheSerpentWeaponPoisoned
+Experience Level = MINI_HORDE_EVIL
+Visionrange = 
+ShroudClearingRange =
+
+Nafarati Marauders
+Cost = 1000, 88 CP (bounty value = 32)
+Buildtime = 40
+HP = 750
+Armorset = NafaratiMarauderArmor
+Weaponset = NafaratiMarauderSword: 150 slash + 75 siege in 7 radius (w/ 90 arc)
+Hordespeed = 50
+Special = +30 flame w/ cultist buff
+Experience Level = EVIL_ELITE
+Visionrange = 
+ShroudClearingRange = 

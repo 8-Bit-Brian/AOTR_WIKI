@@ -4,7 +4,7 @@ import Armortooltip from './Armortooltip';
 
 function Unitcard({unit}) {
   
-  const {NAME, COST, COMMAND_POINTS, BOUNTY_VAL, BUILD_TIME, HP, ARMORSET, WEAPONSET, HORDESPEED, SPECIAL, EXPERIENCE, VISION_RANGE, SHROUDCLEAR_RANGE} = unit;
+  const {NAME, COST, COMMAND_POINTS, BOUNTY_VAL, BUILD_TIME, HP, ARMORSET, WEAPONSET, HORDESPEED, SPECIAL, EXPERIENCE} = unit;
   return(
     <div className="card">
       <div className="container">
@@ -19,8 +19,6 @@ function Unitcard({unit}) {
         <p><b>Horde Speed:</b> {HORDESPEED}</p>
         <p><b>Special:</b> {SPECIAL}</p>
         <p><b>Experience:</b> {EXPERIENCE}</p>
-        <p><b>Vision Range:</b> {VISION_RANGE}</p>
-        <p><b>Shroud Clear:</b> {SHROUDCLEAR_RANGE}</p>
       </div>
     </div> 
   );
