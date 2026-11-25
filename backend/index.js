@@ -1,71 +1,106 @@
-// backend/index.js
-
 const mysql = require('mysql2');
 const express = require('express');
-const cors = require('cors');
-const app = express();
-const PORT = 5000;
 
-const dbConfig = {
+
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+const pool = mysql.createPool({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME
-};
+  database: process.env.DB_NAME,
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0,
+});
 
-app.use(cors({ origin: 'http://127.0.0.1:3000' }));
-app.use(express.urlencoded({extended: true}));
+
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-let connection;
+function sendDatabaseError(res, error) {
+  console.error('Database query failed:', error);
+  res.status(500).json({ error: 'Internal server error' });
+}
 
-function connectWithRetry(retries = 10) {
-  connection = mysql.createConnection(dbConfig);
-
-  connection.connect((err) => {
-    if (err) {
-      console.error('MySQL connection failed:', err);
-      if (retries === 0) {
-        process.exit(1);
-      }
-      console.log(`Retrying in 3s... (${retries} retries left)`);
-      setTimeout(() => connectWithRetry(retries - 1), 3000);
-    } else {
-      console.log('Connected to MySQL database');
-
-      // Start server only if DB is connected
-
-      app.get('/allunits', (req, res) => {
-        const query = `select * from units;`;
-        connection.query(query,(error, result) => {
-          if(error){
-            res.send(error);
-          }
-          else{
-            res.send(result);
-          }
-        });
-      });
-      
-      app.get('/unit-search',(req,res) =>{
-        const query = `select * from units where name like '%${req.query.unit_name}%';`;
-        connection.query(query,(error, result) => {
-          if(error){
-            res.send(error);
-          }
-          else{
-            res.send(result);
-          }
-        });
-      });
-
-      app.listen(PORT, () => {
-        console.log(`Backend running on port ${PORT}`);
-      });
-
-      
+app.get('/ready', (req, res) => {
+  pool.execute('SELECT 1 FROM units LIMIT 0', (error) => {
+    if (error) {
+      console.error('Database readiness check failed:', error);
+      return res.status(503).json({ status: 'not_ready' });
     }
+
+    return res.status(200).json({ status: 'ready' });
+  });
+});
+
+app.get('/api/allunits', (req, res) => {
+  console.log('Received request for all units');
+  pool.execute('SELECT * FROM units', (error, result) => {
+    if (error) {
+      return sendDatabaseError(res, error);
+    }
+
+    return res.json(result);
+  });
+});
+
+app.get('/api/unit-search', (req, res) => {
+  const unitName = req.query.unit_name;
+
+  if (typeof unitName !== 'string') {
+    return res.status(400).json({ error: 'unit_name must be a string' });
+  }
+
+  const normalizedName = unitName.trim();
+  if (normalizedName.length > 200) {
+    return res.status(400).json({ error: 'unit_name must be 200 characters or fewer' });
+  }
+
+  if (!normalizedName) {
+    return pool.execute('SELECT * FROM units', (error, result) => {
+      if (error) {
+        return sendDatabaseError(res, error);
+      }
+
+      return res.json(result);
+    });
+  }
+
+  pool.execute(
+    'SELECT * FROM units WHERE name LIKE ?',
+    [`%${normalizedName}%`],
+    (error, result) => {
+      if (error) {
+        return sendDatabaseError(res, error);
+      }
+
+      return res.json(result);
+    }
+  );
+});
+
+const server = app.listen(PORT, () => {
+  console.log(`Backend running on port ${PORT}`);
+});
+
+function shutdown(signal) {
+  console.log(`Received ${signal}; shutting down`);
+  server.close((serverError) => {
+    if (serverError) {
+      console.error('Error closing HTTP server:', serverError);
+      process.exitCode = 1;
+    }
+
+    pool.end((poolError) => {
+      if (poolError) {
+        console.error('Error closing MySQL pool:', poolError);
+        process.exitCode = 1;
+      }
+    });
   });
 }
 
-connectWithRetry();
+process.on('SIGINT', () => shutdown('SIGINT'));
+process.on('SIGTERM', () => shutdown('SIGTERM'));

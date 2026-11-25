@@ -28,7 +28,7 @@ function App() {
   // Call backend when component loads
   useEffect(() => {
     const fetch_all_units = async () => {
-      const data = await fetch("http://127.0.0.1:5000/allunits");
+      const data = await fetch("/api/allunits");
       const stats = await data.json();
       console.log(stats);
       setResult(stats);
@@ -39,7 +39,7 @@ function App() {
   async function SearchForUnit(event) {
     setQuery(event.target.value);
 
-    const data = await fetch(`http://127.0.0.1:5000/unit-search?unit_name=${encodeURIComponent(event.target.value)}`);
+    const data = await fetch(`/api/unit-search?unit_name=${encodeURIComponent(event.target.value)}`);
     const stats = await data.json();
     console.log(stats);
     setResult(stats);
@@ -50,18 +50,17 @@ function App() {
     : result;
 
   return (
-    <div>
+    <div className="page-content">
       <div>
         <h1 className="title" >Welcome to the Age of the Ring Unit Wiki</h1>
       </div>
       <div>
-        <input type="text" id="uname" name="unit-name" value={query} onChange={SearchForUnit}/><br />
-      </div>
-      <div>
+        <input type="text" id="uname" name="unit-name" value={query} onChange={SearchForUnit}/>
         <Dropdown
           value={selectedFaction}
           onChange={(event) => setSelectedFaction(event.target.value)}
         />
+        <br />
       </div>
 
 
